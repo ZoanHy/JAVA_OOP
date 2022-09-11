@@ -33,6 +33,23 @@ public class DogManagement {
         chiHu.setWeight(10);
         chiHu.bark();
         ngaoDa.bark();
+        
+        System.out.println("Show all infor by using toString() method");
+        System.out.println(chiHu.toString());
+        System.out.println("CH details: " + chiHu); // ben C thi se ra toa do vung new
+        
+        /*
+            Java khong tin toa do, no hieu la vao vung ram cua object show het info
+            goi tham ben em, goi ngam ham toString() khi in bien object
+        */
+        
+        /*
+            Neu khong co toString() ro rang trong Khuon ma lai doi in ra chi tiet cua bien Object
+            dang tro object, thi JVM tu dong in ra 1 con so Hexa, goi la HASH-NUMBER
+            ma bam cua vung ram, toan bo data duoc do vao cua object duoc bam theo thuat toan
+            convert theo 1 thuat toan de ra duoc 1 con so dac trung
+            MD5, SHA-256
+        */
     }
 
 }
