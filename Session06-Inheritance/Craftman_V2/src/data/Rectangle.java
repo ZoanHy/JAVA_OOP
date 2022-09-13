@@ -10,11 +10,11 @@ package data;
  */
 public class Rectangle {
 
-    private String owner;
-    private String color;
-    private double width;
-    private double length;
-    private double area;
+    protected String owner;
+    protected String color;
+    protected double width;
+    protected double length;
+//    protected double area;
 
     /* 
         co nhung dac diem tinh duoc tu nhung dac diem khac

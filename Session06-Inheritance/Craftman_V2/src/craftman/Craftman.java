@@ -26,7 +26,34 @@ public class Craftman {
     public static void main(String[] args) {
         // TODO code application logic here
 //        cutShapes();
-        sortShapes();
+//        sortShapes();
+        playWithChildClass();
+    }
+
+    public static void playWithChildClass() {
+        Square s1 = new Square("TIA", "PINK", 6.7);
+        s1.paint(); // xai ke cua class Cha nhung phai theo quy tac cua Cha
+
+        /*
+            Thang con muon chung to no la no, no con la 1 phien ban cua Cha
+            Thang con lon, mun qua mat Ba, tu quyet hon
+        
+            Ke thua: Cha them ham, Con xai ke them
+                     Cha bot ham, Con bot theo, khong phai copy & paste
+            bi anh huong boi 1 nguon duy nhat
+        
+         */
+        Rectangle r1 = new Rectangle("MA MI", "GREEN", 5.6, 7.8);
+        r1.paint();
+
+        Rectangle r2 = new Square("Haha", "RED", 5.6);
+        //     HCN  <- La HV
+        r2.paint();
+
+        /*
+            new 1 chuyen, cham 1 chuyen, chay 1 chuyen
+            da hinh, da the qua m
+         */
     }
 
     public static void sortShapes() {
@@ -51,7 +78,8 @@ public class Craftman {
         rectArr[1] = new Rectangle("MA", "BLUE", 3.0, 15.0);
         rectArr[2] = new Rectangle("BE NA", "BLUE", 3.0, 10.0);
 
-//        rectArr[3] = new Square("GHE BE NA", "PINK", 5.6);
+        rectArr[3] = new Square("GHE BE NA", "PINK", 5.6);
+//        rectArr[3].paint();
         /*
             CHUNG MINH KHONG CUNG HE, S EO PHAI LA HINH CHU NHAT KHONG CUNG MANG
             MANG NOI RANG: KHAI BAO CUNG KIEU, MANG CHU NHAT CHI CHUA HINH CHU NHAT
