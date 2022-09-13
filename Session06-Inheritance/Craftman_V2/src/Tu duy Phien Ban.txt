@@ -1,0 +1,17 @@
+LAM OBJECT NHANH, CAN KHUON, SAN XUAT CN LEVEL 1 - DONE
+
+LEVEL 2: Nhanh hon nua, lam khuong nhanh --> Ta can ke thua tu khuon san co
+
+Tu cac object trong cuoc song, trong bai toan tin hoc hoa --> Tim duoc cai khuong/ Class: 1 muc nhan thuc, thiet ke ta dat roi
+
+LEVEL 2 CUA MUC NHAN THUC VE CLASS:
+--> Khuon A, Khuon B, Khuon C thay chung co su tuong dong
+
+TA MUON CHE TAO 1 MON MOI, THU MOI TA BAT DAU TU DAU
+                                                        -- tu dau?
+                                                        -- tu cai co san
+mon do tu la object, muon che tao nhieu do ta can Khuon (nhan ban object)
+--> lam sao lam duoc cai khuon: che tu dau, hay "do" lai tu 1 cai khuong khac:
+                                                                    ke thua lai
+                                                                    INHERIT/ INHERITANCE
+
