@@ -1,0 +1,39 @@
+
+
+* TONG KET KE THUA LEVEL 1: CHA CU THE, CON CU THE (CONCRETE)
+- CHA CO DAY DU CODE DE CHAY
+- CON CO DAY DU CODE DE CHAY
+      THEM THU MA CHA KHONG CO (DAC DIEM, HANH VI) @OVERRIDE
+
+*CAU HOI: 1 CHA CO THE CO NHIEU CON KHONG?
+          1 CON CO THE CO NHIEU CHA KHONG?
+          EM EO DUNG KE THUA, EM DUNG IF DUOC KHONG?
+
+* KE THUA LEVEL 2: KHO HON, CHA TRUU TUONG, CON CU THE, ...
+                    (CHI NOI, EO LAM, CHI TAY NAM NGON)
+                    (NOI VA LAM LA 2 VE KHAC NHAU)
+0. Muon tao nhanh cac oject, dung tu duy Khuon --> nhan ban obj, nhan ban obj, ... [DONE]
+
+1. Muon che tao nhanh cai Khuon, ta dung ke thua, dung lai 1 Khuon nao co truoc de do lai
+(bien di do), xai lai cai cu + them cai moi - [DONE]
+
+2. TIM DIEM TUONG DONG GIUA CAC KHUON, LAM NHANH DANG KHUON TO, NHAN BAN KHUON CON,
+    ---> OBJECT CON NHANH, NHIEU VA DA DANG HON
+    HINH THUC O MUC PHAN LOAI CAO HON
+    
+Ta can che tao nhieu Khuon ma lai CHE TAO nhanh de tu do ra object cho nhanh
+    Van la ke thua ma thoi!!!, van phai dung lai Khuon nao do
+    Van de la dung lai bao nhieu Khuon de lam nhieu Khuon
+    --> muc tieu la da dang object nhung can nhanh
+    --> muc tieu la chung phien ban, tuong dong nhau
+    --> TA CAN 1 KHUON TO, TU DO "DE RA" DUOC NHIEU KHUON CON "KHAC NHAU"
+    --> DAM KHAC NHAU VE CHUNG 1 NHA, CHUNG MANG, SAP XEP SE YEN VUI
+    --> SAP XEP MANG OBJECT KHA "KHAC NHAU"
+
+    --> CO GANG LAM 1 KHUON HOAN HAO -> RA NHIEU KHUON KHAC NHAU
+        -> 1 LOAT PHIEN BAN XUAT PHAT TU 1 THU GOC, pb DAC BIET, TIEU CHUAN, PREMIUM, LIMITED
+        
+    VUONG, TRON, CHU NHAT, CHUNG 1 NHA !!!
+    VUONG, TRON, CHU NHAT IS A KIND OF ...!
+
+    SHAPE: Khuon To, tu day ra ca dam Khuon moi

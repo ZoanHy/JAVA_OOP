@@ -33,7 +33,7 @@ public class ParentChild {
         /*
             Khai Con new Con
          */
-        Child c1 = new Child(("NHA PHO"), "1000ETH");
+        Child c1 = new Child(("NHA PHO"), "1000ETH", "MOTOR");
         c1.showProfile(); // Se in la Parent, neu khong chiu Override (extends)
 
         /*
@@ -48,7 +48,7 @@ public class ParentChild {
             Nhu vay phai cu xu nhu nguoi lon
             --> Chi xo cua Cha khong CARE Con co gi khac biet ngoai tru phan Override
          */
-        Parent c2 = new Child("CAN HO", "DOGECOIN");
+        Parent c2 = new Child("CAN HO", "DOGECOIN", "DU THUYEN");
         c2.showProfile();
         /*
             Goi Cha nhung chay Con, duy nhat vay
@@ -60,6 +60,26 @@ public class ParentChild {
             Co cach nao Khai Cha ma van so Con dac biet khong ???
             Cau tra loi la van co
          */
+ /*
+            Choi tro keo gian soi thun, de do day new Child(), lay duoc toa do cua new Child()
+            Le ra toa do co roi, nhung do ta xai con tro lung chung
+            Tro Cha khong tro day, gio vo day, ki thuat ep Cho thanh Meo, CAST
+            Ep kieu, Cua Gat
+            Dung con tro tam, de luu toa do
+         */
+
+ /*
+            Keo gian con tro xuong day new Child(), lay toa do, thay cho tmp
+            La con tro Child, 2 chang 1 nang again
+            1 chang lung chung, 1 chang day new
+         */
+        Child temp = (Child) c2;
+        temp.sayHi();
+        temp.showProfile();
+        // Cach tren se ton them 1 bien con tro de tro luu dia chi do cu the la co 8 byte
+        // Cat di de dung la hay chi dung 1 lan roi thoi, deu oki, new Dog(...).bark() ~ sinh ra 1 lan roi bi JVM don dep
+
+        
         ((Child) c2).sayHi();
     }
 }

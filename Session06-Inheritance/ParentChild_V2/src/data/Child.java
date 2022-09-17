@@ -21,20 +21,30 @@ package data;
  */
 public class Child extends Parent {
 
-    public Child(String assetOne, String assetTwo) {
+    private String assetThree;
+
+    public Child(String assetOne, String assetTwo, String assetThree) {
         super(assetOne, assetTwo);
+        this.assetThree = assetThree;
     }
 
-    @Override
-    public void showProfile() {
-        System.out.printf("CHILD ? assetOne: %s, assetTwo: %s\n", assetOne, assetTwo);
+    public String getAssetThree() {
+        return assetThree;
+    }
+
+    public void setAssetThree(String assetThree) {
+        this.assetThree = assetThree;
     }
 
     /*
         1 ham ma Cha chua co, di biet, lan dot bien
      */
-    
-    public void sayHi(){
+    public void sayHi() {
         System.out.println("Hello");
+    }
+
+    @Override
+    public void showProfile() {
+        System.out.printf("PARENT ? assetOne: %s, assetTwo: %s, assetThree: %s\n", assetOne, assetTwo, assetThree);
     }
 }
