@@ -6,6 +6,7 @@ package craftman;
 
 import data.Disk;
 import data.Rectangle;
+import data.RightTriangle;
 import data.Square;
 import data.Triangle;
 
@@ -33,8 +34,31 @@ public class Craftman {
     }
 
     public static void playWithTriangles() {
-        Triangle t1 = new Triangle("TIA", "BLUE", 3, 4, 5);
+        Triangle t1 = new Triangle("TIA", "BLUE", 5, 10, 14);
         t1.paint(); //KHAI CHA NEW CHA
+
+//        RightTriangle rt1 = new Triangle(owner, color, 0, 0, 0)- loi vi Cha khong the tu Con tao ra duoc
+        // Khai con - new Cha la ERROR
+        /*
+            KHAI GI NEW NAY 100 NAM NAY
+         */
+        RightTriangle rt1 = new RightTriangle("MA", "PINK", 3, 4); // Khai CON new CON
+        rt1.paint(); // thua ke het cua Cha, thoai mai ma xai
+
+        /*
+            KHAI CHA NEW CON, DUNG 2 DANH NGHIA, RA NGOAI DUONG
+            Dung danh nghia Cha di hu, hu theo hanh dong cua Cha
+            Mac du la Con
+            Dung duoc vi Tam giac mot la con <---- TGV la TGV
+            cham xo ra CHA
+         */
+        Triangle rt2 = new RightTriangle("BE NA", "GREEN", 5.6, 7.8);
+        rt2.paint();
+        /*
+            Dung ham cua Cha dang danh nghia con tro Cha
+            Nhung luc chay F6 thuc su la CON UU TIEN, QUA MAT
+            Coi to cho vuot
+        */
     }
 
     public static void playWithChildClass() {

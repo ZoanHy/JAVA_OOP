@@ -10,9 +10,9 @@ package data;
  */
 public class Triangle {
 
-    private String owner;
-    private String color;
-    private double a, b, c;
+    protected String owner;
+    protected String color;
+    protected double a, b, c;
 
     /*
         Tong 2 bat ky phai lon hon canh con lai moi duoc lam tam giac
@@ -93,6 +93,7 @@ public class Triangle {
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
+    
     public void paint() {
         System.out.printf("|TRIANGLE |%-15s|%-10s|%4.1f|%4.1f|%4.1f|%7.2f|\n", owner, color, a, b, c, getArea());
     }
